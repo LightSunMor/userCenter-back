@@ -1,0 +1,12 @@
+# 删除application中公共环境的配置，留下需要在当前环境不同的配置进行修改
+
+spring:
+    # mysql配置
+  datasource: # 数据库的相关配置
+    username: root
+    password: 1qaz@wsx
+    url: jdbc:mysql://124.222.111.223:3306/starboll_one?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8 #serverTimezone=Asia/Shanghai ???sshL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  ## 设置session失效时间为一天
+  session:
+    timeout: 86400
