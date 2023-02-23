@@ -19,8 +19,9 @@
    - idea直接生成
 
 3. 配置依赖(mybatis-plus)
-  
-    <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+ 
+ ```xml
+  <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
     <dependency>
         <groupId>com.baomidou</groupId>
         <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -51,6 +52,9 @@
             <artifactId>p6spy</artifactId>
             <version>3.9.1</version>
         </dependency>
+        ```
+ 
+ 
  4.数据库配置 ---源码中
  
 ## 数据库表设计
