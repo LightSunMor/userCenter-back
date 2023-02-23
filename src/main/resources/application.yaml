@@ -4,7 +4,7 @@ spring:
     # mysql??
   datasource: # 数据库的相关配置
     username: root
-    password: "1024"
+    password: "xxxx"
     url: jdbc:mysql://localhost:3306/starboll_one?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8 #serverTimezone=Asia/Shanghai ??????????
     driver-class-name: com.mysql.cj.jdbc.Driver
   ## 设置session失效时间为一天
