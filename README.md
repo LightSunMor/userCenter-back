@@ -52,7 +52,7 @@
             <artifactId>p6spy</artifactId>
             <version>3.9.1</version>
         </dependency>
-        ```
+```xml
  
  
  4.数据库配置 ---源码中
